@@ -1,0 +1,6 @@
+Иконки платежных систем:
+- Visa, Mastercard, American Express, Discover, JCB, Diner
+Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.
+- МИР
+https://www.svgrepo.com/svg/328067/mir
+

@@ -1,0 +1,79 @@
+.validator {
+    padding: 40px;
+}
+
+.validator {
+    width: 400px;
+}
+
+.cards-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+svg.icon {
+    width: 50px;
+    height: 70px;
+    fill-opacity: 0.3;
+}
+
+svg.icon-active {
+    fill-opacity: 1.0;
+}
+
+.form-control {
+    display: flex;
+    justify-content: space-between;
+}
+
+#input-card {
+    width: 230px;
+    font-size: 15px;
+
+}
+
+#input-card:focus {
+    outline: none;
+}
+
+
+.button {
+    width: 150px;
+    padding: 5px;
+    border: 1px solid green;
+    background: green;
+    border-radius: 6px;
+    font-size: 15px;
+    color: white;
+}
+
+.card-item {
+    position: relative;
+}
+
+.errors {
+    width: 400px;
+    padding: 40px 40px 0 40px;
+    text-align: center;
+}
+
+.error {
+    display: none;
+    color: red;
+}
+
+.messages {
+    width: 400px;
+    padding: 0px 40px 0 40px;
+    text-align: center;
+}
+
+.message {
+    display: none;
+    color: green;
+}
+
+.active {
+    display: block;
+}
