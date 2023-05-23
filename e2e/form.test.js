@@ -5,11 +5,13 @@ describe('Testing form widget', () => {
   let page;
 
   beforeEach(async () => {
-    browser = await puppeteer.launch({
+    // browser = await puppeteer.launch({
       // headless: "new",
       // slowMo: 100,
       // devtools: true,
-    });
+    // });
+
+    browser = await puppeteer.launch();
 
     page = await browser.newPage();
     await page.goto('http://localhost:9000');
