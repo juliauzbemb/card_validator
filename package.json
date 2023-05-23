@@ -48,6 +48,8 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
+    "child_process": "^1.0.2",
+    "core-js": "^3.30.2",
     "puppeteer": "^20.3.0"
   },
   "jest": {
