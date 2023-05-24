@@ -50,8 +50,6 @@
   "dependencies": {
     "child_process": "^1.0.2",
     "core-js": "^3.30.2",
-    "jest-environment-jsdom": "^29.5.0",
-    "jsdom": "^22.0.0",
     "puppeteer": "^20.3.0"
   },
   "jest": {
