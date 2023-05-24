@@ -24,10 +24,10 @@ describe('Testing form widget', () => {
         }
       });
     });
-    browser = await puppeteer.launch({
+    browser = await puppeteer.launch(
       // headless: false, 
       // devtools: true,
-    });
+    );
     page = await browser.newPage();
   });
 
