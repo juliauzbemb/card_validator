@@ -13,7 +13,7 @@ describe('Testing form widget', () => {
   const baseUrl = 'http://localhost:9000';
 
   beforeAll(async () => {
-    server = childProcess.fork(`${__dirname}/e2e.server.js`);
+    server = await childProcess.fork(`${__dirname}/e2e.server.js`);
     await new Promise((resolve, reject) => {
       server.on('error', () => {
         reject();
