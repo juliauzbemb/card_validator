@@ -3,7 +3,6 @@ import Range from "./range";
 export const paymentSysList = [
   "american-express",
   "diners",
-  "diners",
   "discover",
   "jcb",
   "mastercard",
@@ -22,12 +21,6 @@ export const options = [
     diners: {
       digits: [300, 301, 302, 303, 304, 305, 36],
       length: [14],
-    },
-  },
-  {
-    diners: {
-      digits: [54],
-      length: [16],
     },
   },
   {
